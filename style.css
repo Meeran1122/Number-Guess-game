@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+	background-color:#5656fc;
+}
+
+.container {
+    max-width: 400px;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    height: 100%;
+position: relative;
+}
+
+.heading {
+    text-align: center;
+    color: white;
+    background-color: #0c0485;
+    height: 12%;
+    position: absolute;
+    top: 0%;
+    left: 3%;
+    right: 3%;
+}
+
+.txt1 {
+    margin-top: 70px;
+    text-align: center; /* Center text */
+}
+
+.input {
+    text-align: center;
+    margin-top: 50px;
+}
+
+input[type="text"] {
+    width: 30%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.guessButton{
+    text-align: center;
+    margin-top: 20px; /* Adjust margin-top */
+}
+
+.guessButton h2 {
+    cursor: pointer;
+    background-color: #2826b3;
+    color: white;
+    padding: 10px 0px;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 30%; 
+    margin: 50px auto; /* Center horizontally */
+}
+
+
+.txt2 {
+    margin-top: 50px;
+    text-align: center; /* Center text */
+border-radius: 20px;
+box-shadow: black 2px;
+}
+  
+.txt2 p {
+    margin: 0; /* Remove default margin */
+}
+  
+.result {
+    margin-top: 50px;
+    text-align: center; /* Center text */
+    font-weight: bold;
+}
