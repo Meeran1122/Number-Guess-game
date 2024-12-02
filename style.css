@@ -36,7 +36,7 @@ position: relative;
     margin-top: 50px;
 }
 
-input[type="text"] {
+input[type="text"]{
     width: 30%;
     padding: 10px;
     font-size: 16px;
@@ -44,7 +44,7 @@ input[type="text"] {
     border-radius: 5px;
 }
 
-.guessButton{
+.guessButton {
     text-align: center;
     margin-top: 20px; /* Adjust margin-top */
 }
